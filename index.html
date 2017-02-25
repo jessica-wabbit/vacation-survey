@@ -1,0 +1,93 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <link href="css/bootstrap.css" rel="stylesheet" type="text/css">
+    <link href="https://fonts.googleapis.com/css?family=Bitter|Passion+One" rel="stylesheet">
+    <link href="css/styles.css" rel="stylesheet" type="text/css">
+    <script src="js/jquery-3.1.1.js"></script>
+    <script src="js/scripts.js"></script>
+    <title>Vacation Survey</title>
+  </head>
+  <body>
+    <div class="container">
+      <div class="jumbotron">
+        <h1>Discover Your Ultimate Vacation!</h1>
+        <p>Take this quiz to match your personality with the perfect vacation destination!</p>
+      </div>
+      <div class="row">
+        <div class="col-md-6">
+          <form id="quiz">
+            <label for="hiking">Do you like hiking?</label>
+            <select id="hiking">
+              <option value="1">Not at all</option>
+              <option value="2">Only for a couple of hours</option>
+              <option value="3">Yeah! I could go for a hike!</option>
+              <option value="4">I prefer backpacking cross country if you know what I mean</option>
+            </select>
+            <br><br>
+            <label for="liketo">When you're on vacation do you like to...</label>
+            <select id="liketo">
+              <option value="1">Relax in the sun</option>
+              <option value="4">Do extreme sports </option>
+              <option value="3">Play in the ocean</option>
+              <option value="2">Explore new cultures</option>
+            </select>
+            <br><br>
+            <label for="zipline">How does ziplining sound?</label>
+            <select id="zipline">
+              <option value="4">Hell yeah!</option>
+              <option value="3">I don't know, maybe?</option>
+              <option value="2">Does it take me to a wine bar?</option>
+              <option value="1">Absolutely not!</option>
+            </select>
+            <br><br>
+            <p><strong>If you had to choose an activity, which would it be?</strong></p>
+            <div class="radio">
+              <label>
+              <input type="radio" name="activity" value="3" checked>
+              Snorkeling through a protected coral reef
+              </label>
+            </div>
+            <div class="radio">
+              <label>
+              <input type="radio" name="activity" value="2">
+              Tapas and wine tasting in a European city
+              </label>
+            </div>
+            <div class="radio">
+              <label>
+              <input type="radio" name="activity" value="1">
+              Dance party on a cruise ship
+              </label>
+            </div>
+            <div class="radio">
+              <label>
+              <input type="radio" name="activity" value="4">
+              Kayaking to a waterfall
+              </label>
+            </div>
+            <button type="submit" class="btn btn-default btn-lg">Find my vacation!</button>
+          </form>
+        </div>
+        <div class="col-md-6">
+          <div id="caribbeancruise">
+            <img src="img/cruise.jpeg" alt="A cruise ship." width="500px">
+            <h1>Congratulations! Your going to head out to see on a <span class="cruise">Carribean Cruise</span>!</h1>
+          </div>
+          <div id="eurotour">
+            <img src="img/barcelona.png" alt="Barcelona" width="500px">
+            <h1>Congratulations! You're all signed up for a <span class="eurotour">Wine and Tapas Tour of Europe</span>!</h1>
+          </div>
+          <div id="lightadventure">
+            <img src="img/costa-rica.jpeg" alt="Costa Rica" width="500px">
+            <h1>Congratulations! You're headed for a <span class="costarica">Costa Rican Adventure</span>!</h1>
+          </div>
+          <div id="hardcore">
+            <img src="img/machu-picchu.jpeg" alt="Machu Picchu." width="500px">
+            <h1>Get excited because you're headed for an <span class="hardcore">Epic Hiking Trip</span> to Machu Picchu!</h1>
+          </div>
+        </div>
+      </div>
+    </div>
+  </body>
+</html>

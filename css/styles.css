@@ -1,0 +1,38 @@
+body {
+  font-family:  'Bitter', serif;
+}
+
+h1 {
+  font-family: 'Passion One', cursive;
+}
+
+#caribbeancruise {
+  display: none;
+}
+
+#eurotour {
+  display: none;
+}
+#lightadventure {
+  display: none;
+}
+#hardcore {
+  display: none;
+}
+
+.cruise {
+  color: blue;
+
+}
+
+.costarica {
+  color: red;
+}
+
+.eurotour {
+  color: green;
+}
+
+.hardcore {
+  color: gold;
+}
