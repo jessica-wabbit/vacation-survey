@@ -1,9 +1,14 @@
 body {
   font-family:  'Bitter', serif;
+  background-color:  #fff59d;
 }
 
 h1 {
   font-family: 'Passion One', cursive;
+}
+
+h1.result {
+  text-align: center;
 }
 
 #caribbeancruise {
@@ -20,19 +25,24 @@ h1 {
   display: none;
 }
 
+.jumbotron {
+   background-color: #4dd0e1;
+   text-align: center;
+}
+
 .cruise {
-  color: blue;
+  color:  #e91e63;
 
 }
 
 .costarica {
-  color: red;
+  color:  #03a9f4;
 }
 
 .eurotour {
-  color: green;
+  color:  #ff5722;
 }
 
 .hardcore {
-  color: gold;
+  color:  #4caf50;
 }
